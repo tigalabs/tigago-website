@@ -1,29 +1,26 @@
 name: Deploy
 
-on: 
-  push: 
-    branches: [ master ]
-  pull_request: 
-    branches: [ master ]
-jobs: 
-  build-and-deploy: 
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+jobs:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
-    steps: 
-    - name: Checkout
-      uses: actions/checkout@master
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: Build Site
-      run: 
-        cp  ./index.html ./dist
-        ls
+      - name: Build Site
+        run: cp index.html dist/
 
-    - name: Deploy to Server
-      uses: hengkx/ssh-deploy@v1.0.1
-      with:  
+      - name: Deploy to Server
+        uses: hengkx/ssh-deploy@v1.0.1
+        with:
           HOST: ${{ secrets.DEPLOY_HOST }}
           USERNAME: ${{ secrets.DEPLOY_HOST_USER }} # 为了用户信息安全对敏感数据可以在secrets中配置请看下图
           PASSWORD: ${{ secrets.DEPLOY_HOST_PASSWORD }}
-          SOURCE: 'dist'
-          TARGET: '/www/wwwroot/tigago.tigateam.com' 
-      
+          SOURCE: "dist"
+          TARGET: "/www/wwwroot/tigago.tigateam.com"
