@@ -13,8 +13,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    # - name: Build Site
-    #   run: npm install && npm run build
+    - name: Build Site
+      run: cp ./index.html ./dist/index.html
 
     - name: Deploy to Server
       uses: hengkx/ssh-deploy@v1.0.1
@@ -22,6 +22,6 @@ jobs:
           HOST: ${{ secrets.DEPLOY_HOST }}
           USERNAME: ${{ secrets.DEPLOY_HOST_USER }} # 为了用户信息安全对敏感数据可以在secrets中配置请看下图
           PASSWORD: ${{ secrets.DEPLOY_HOST_PASSWORD }}
-          SOURCE: './'
-          TARGET: '/www/wwwroot/tigago.tigateam.com'
+          SOURCE: 'dist/'
+          TARGET: '/www/wwwroot/tigago.tigateam.com/'
       
