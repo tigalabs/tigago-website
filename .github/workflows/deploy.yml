@@ -13,8 +13,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    # - name: Build Site
-    #   run: cp index.html dist
+    - name: Build Site
+      run: cp -f ./index.html ./dist
 
     - name: Deploy to Server
       uses: hengkx/ssh-deploy@v1.0.1
