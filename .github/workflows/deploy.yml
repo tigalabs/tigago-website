@@ -22,6 +22,6 @@ jobs:
           HOST: ${{ secrets.DEPLOY_HOST }}
           USERNAME: ${{ secrets.DEPLOY_HOST_USER }} # 为了用户信息安全对敏感数据可以在secrets中配置请看下图
           PASSWORD: ${{ secrets.DEPLOY_HOST_PASSWORD }}
-          SOURCE: 'dist/'
-          TARGET: '/www/wwwroot/tigago.tigateam.com/'
+          SOURCE: 'dist'
+          TARGET: '/www/wwwroot/tigago.tigateam.com'
       
