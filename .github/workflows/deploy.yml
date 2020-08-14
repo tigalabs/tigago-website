@@ -14,7 +14,9 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build Site
-        run: cp index.html dist/
+        run: 
+          mkdir dist
+          cp index.html dist/
 
       - name: Deploy to Server
         uses: hengkx/ssh-deploy@v1.0.1
