@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build Site
-        run: 
+        run: | 
           mkdir dist
           cp index.html dist/
 
