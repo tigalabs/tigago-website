@@ -20,7 +20,7 @@ features:
   details: It's the mountain I dream of using the red light given by the earth's earth to transform into the earth like red giant Gaia Altman. Undoubtedly, Gaia is the representation of my dream. Therefore, his character is as kind and gentle as "my dream", and he is an aut warrior with rich skills.
 footer: MIT Licensed | Copyright © 2019-present TigaTeam
 ---
-# README
+<!-- # README
 A vuepress template
 
 ::: tip
@@ -33,4 +33,4 @@ This is a warning
 
 ::: danger
 This is a dangerous warning
-:::
+::: -->

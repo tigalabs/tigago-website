@@ -19,7 +19,7 @@ features:
 footer: MIT Licensed | Copyright © 2019-present TigaTeam
 ---
 # README
-一个 vuepress 模板
+<!-- 一个 vuepress 模板
 
 ::: tip 提示
 这是一个提示
@@ -31,4 +31,4 @@ footer: MIT Licensed | Copyright © 2019-present TigaTeam
 
 ::: danger 危险警告
 这是一个危险警告
-:::
+::: -->
