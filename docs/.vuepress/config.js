@@ -133,7 +133,7 @@ module.exports = {
         },
         '/zh/': {
             lang: 'zh-CN',
-            title: 'Tigago Web 框架',
+            title: 'Tigago Web Framework',
             description: 'Tigago 是一款模块化、高性能、生产级的Go基础开发框架'
         }
     }
