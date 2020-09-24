@@ -31,7 +31,7 @@ module.exports = {
 					}
 				},
 				algolia: {},
-				sidebarDepth: 2,
+				sidebarDepth: 1,
 				sidebar: 'auto',
 				nav: [
 					{
@@ -104,7 +104,7 @@ module.exports = {
 				},
 				// 当前 locale 的 algolia docsearch 选项
 				algolia: {},
-				sidebarDepth: 2,
+				sidebarDepth: 1,
 				sidebar: 'auto',
 				nav: [
 					{
@@ -118,11 +118,15 @@ module.exports = {
 				sidebar: {
 					'/zh/book/documentation/': [
 						{
+
+							// name:"testno",
 							title: '框架介绍',
 							path: '/zh/book/documentation/Introduction',
+							sidebarDepth: 0
 						}, {
 							title: '加入我们',
 							path: '/zh/book/documentation/JoinUs',
+							sidebarDepth: 0
 						}, {
 							title: '准备工作',
 							path: '/zh/book/documentation/Preparation',
