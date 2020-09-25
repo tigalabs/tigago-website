@@ -129,18 +129,74 @@ module.exports = {
 							sidebarDepth: 0
 						}, {
 							title: '准备工作',
-							path: '/zh/book/documentation/Preparation',
 							collapsable: true,
 							children: [
 								'/zh/book/documentation/Preparation/',
 								'/zh/book/documentation/Preparation/EnvironmentInstallation',
 							]
+						},
+						{
+							title: '用户必读',
+							collapsable: true,
+							children: [
+								'/zh/book/documentation/UserMustRead/DevelopmentSpecificatio',
+							]
 						}, {
 							title: '快速开始',
-							path: '/zh/book/documentation/QuickStart',
 							collapsable: true,
 							children: [
 								'/zh/book/documentation/QuickStart/',
+							]
+						}, {
+							title: '项目部署',
+							collapsable: true,
+							children: [
+								'/zh/book/documentation/ProjectDeployment/Nginx',
+								'/zh/book/documentation/ProjectDeployment/Docker'
+							]
+						}, {
+							title: 'Web服务开发',
+							collapsable: true,
+							children: [
+							]
+						}, {
+							title: 'Modules',
+							collapsable: true,
+							children: [
+							]
+						}, {
+							title: '框架学习教程',
+							collapsable: true,
+							children: [
+								{
+									title: '官方教程',
+									collapsable: true,
+									children: [
+									]
+								}, {
+									title: '社区教程',
+									collapsable: true,
+									children: [
+									]
+								},
+							]
+						}, {
+							title: '框架用户案例',
+							collapsable: true,
+							children: [
+							]
+						}, {
+							title: 'Change Log',
+							collapsable: true,
+							children: [
+								{
+									title: '版本发布说明',
+									path: '/zh/book/documentation/ChangeLog/README',
+								}, {
+									title: 'V1.0.0',
+									collapsable: true,
+									path: '/zh/book/documentation/ChangeLog/V1.0.0',
+								},
 							]
 						}, {
 							title: 'FAQ 疑问解答',
