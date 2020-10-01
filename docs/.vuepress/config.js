@@ -66,25 +66,30 @@ module.exports = {
 							path: '/documentation/JoinUs',
 						}, {
 							title: 'Preparation',
-							path: '/documentation/Preparation',
+							path: '/documentation/Preparation/',
 							collapsable: true,
 							children: [
-								'/documentation/Preparation/',
-								'/documentation/Preparation/EnvironmentInstallation',
+								{
+									title: 'EnvironmentInstallation',
+									path: '/documentation/Preparation/EnvironmentInstallation',
+								}
 							]
 						},
 						{
 							title: 'UserMustRead',
 							collapsable: true,
 							children: [
-								'/documentation/UserMustRead/DevelopmentSpecificatio',
+								{
+									title: 'Development specification',
+									path: '/documentation/UserMustRead/DevelopmentSpecification',
+								}
 							]
 						},
 						{
 							title: 'QuickStart',
+							path: '/documentation/QuickStart/',
 							collapsable: true,
 							children: [
-								'/documentation/QuickStart/',
 							]
 						},
 						{
@@ -143,13 +148,13 @@ module.exports = {
 							children: [
 								{
 									title: "V1.0.0",
-									path: '/documentation/ChangeLog/V1.0.0.md',
+									path: '/documentation/ChangeLog/V1.0.0',
 								},
 							]
 						},
 						{
 							title: 'FAQ List',
-							path: '/documentation/FAQ.md',
+							path: '/documentation/FAQ',
 						},
 					],
 				}
@@ -198,23 +203,30 @@ module.exports = {
 							sidebarDepth: 0
 						}, {
 							title: '准备工作',
+							path: '/zh/documentation/Preparation/',
 							collapsable: true,
 							children: [
-								'/zh/documentation/Preparation/',
-								'/zh/documentation/Preparation/EnvironmentInstallation',
+								{
+									title: "环境安装",
+									path: '/zh/documentation/Preparation/EnvironmentInstallation',
+								}
 							]
 						},
 						{
 							title: '用户必读',
 							collapsable: true,
 							children: [
-								'/zh/documentation/UserMustRead/DevelopmentSpecificatio',
+								{
+									title: "开发规范",
+									path: '/zh/documentation/UserMustRead/DevelopmentSpecification',
+								}
 							]
 						}, {
 							title: '快速开始',
+							path: '/zh/documentation/QuickStart/',
 							collapsable: true,
 							children: [
-								'/zh/documentation/QuickStart/',
+								// '/zh/documentation/QuickStart/',
 							]
 						}, {
 							title: '项目部署',
@@ -271,13 +283,13 @@ module.exports = {
 							children: [
 								{
 									title: "V1.0.0",
-									path: '/zh/documentation/ChangeLog/V1.0.0.md',
+									path: '/zh/documentation/ChangeLog/V1.0.0',
 								},
 							]
 						},
 						{
 							title: 'FAQ 疑问解答',
-							path: '/zh/documentation/FAQ.md',
+							path: '/zh/documentation/FAQ',
 						},
 					]
 				}

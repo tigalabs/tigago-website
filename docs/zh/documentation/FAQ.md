@@ -1,5 +1,1 @@
----
-sidebarDepth: 0
----
-
-# FAQ
+# FAQ 疑问解答

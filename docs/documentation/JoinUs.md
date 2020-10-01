@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# JoinUs
+# 加入我们
 
 ## 2222
 
