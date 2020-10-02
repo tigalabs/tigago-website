@@ -9,6 +9,20 @@ module.exports = {
 		lineNumbers: true
 	},
 	plugins: ['@vuepress/back-to-top'],
+	locales: {
+		// 键名是该语言所属的子路径
+		// 作为特例，默认语言可以使用 '/' 作为其路径。
+		'/': {
+			lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+			title: 'Tigago Web Framework',
+			description: `Tigago is a modular, high performance, production level go basic development framework`
+		},
+		'/zh/': {
+			lang: 'zh-CN',
+			title: 'Tigago Web Framework',
+			description: 'Tigago 是一款模块化、高性能、生产级的Go基础开发框架'
+		}
+	},
 	theme: undefined,
 	themeConfig: {
 		logo: '/images/logo.jpg',
@@ -58,28 +72,85 @@ module.exports = {
 								'/documentation/Preparation/',
 								'/documentation/Preparation/EnvironmentInstallation',
 							]
-						}, {
+						},
+						{
+							title: 'UserMustRead',
+							collapsable: true,
+							children: [
+								'/documentation/UserMustRead/DevelopmentSpecificatio',
+							]
+						},
+						{
 							title: 'QuickStart',
-							path: '/documentation/QuickStart',
 							collapsable: true,
 							children: [
 								'/documentation/QuickStart/',
 							]
-						}, {
-							title: 'FAQ Question Answer',
-							path: '/documentation/FAQ',
 						},
-					],
-					'/dir-b/': [
 						{
-							title: 'Quickstart',
-							path: '/dir-b/',
-							collapsable: false,
+							title: 'ProjectDeployment',
+							collapsable: true,
 							children: [
-								'/dir-b/file-1',
-								'/dir-b/file-2',
-								'/dir-b/file-3']
-						}
+								{
+									title: "Nginx",
+									path: '/documentation/ProjectDeployment/Nginx'
+								},
+								{
+									title: "Docker",
+									path: '/documentation/ProjectDeployment/Docker'
+								}
+							]
+						},
+						{
+							title: 'Web Service Development',
+							collapsable: true,
+							children: [
+							]
+						},
+						{
+							title: 'Modules',
+							collapsable: true,
+							children: [
+							]
+						},
+						{
+							title: 'Framework Learning Tutorial',
+							collapsable: true,
+							children: [
+								{
+									title: 'The Official Tutorial',
+									collapsable: true,
+									children: [
+									]
+								}, {
+									title: 'The Community tutorial',
+									collapsable: true,
+									children: [
+									]
+								},
+							]
+						},
+						{
+							title: 'Framework User Case',
+							collapsable: true,
+							children: [
+							]
+						},
+						{
+							title: 'Change Log',
+							path: '/documentation/ChangeLog/',
+							collapsable: true,
+							children: [
+								{
+									title: "V1.0.0",
+									path: '/documentation/ChangeLog/V1.0.0.md',
+								},
+							]
+						},
+						{
+							title: 'FAQ List',
+							path: '/documentation/FAQ.md',
+						},
 					],
 				}
 			},
@@ -118,8 +189,6 @@ module.exports = {
 				sidebar: {
 					'/zh/documentation/': [
 						{
-
-							// name:"testno",
 							title: '框架介绍',
 							path: '/zh/documentation/Introduction',
 							sidebarDepth: 0
@@ -200,10 +269,6 @@ module.exports = {
 							path: '/zh/documentation/ChangeLog/',
 							collapsable: true,
 							children: [
-								// {
-								// 	title: "版本发布说明",
-								// 	path: '/zh/documentation/ChangeLog/V1.0.0.md',
-								// },
 								{
 									title: "V1.0.0",
 									path: '/zh/documentation/ChangeLog/V1.0.0.md',
@@ -214,33 +279,9 @@ module.exports = {
 							title: 'FAQ 疑问解答',
 							path: '/zh/documentation/FAQ.md',
 						},
-					],
-					// '/zh/dir-b/': [{
-					// 	title: '入门',
-					// 	path: '/zh/dir-b/',
-					// 	collapsable: false,
-					// 	children: [
-					// 		'/zh/dir-b/file-1',
-					// 		'/zh/dir-b/file-2',
-					// 		'/zh/dir-b/file-3'
-					// 	]
-					// }]
+					]
 				}
 			}
 		}
 	},
-	locales: {
-		// 键名是该语言所属的子路径
-		// 作为特例，默认语言可以使用 '/' 作为其路径。
-		'/': {
-			lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-			title: 'Tigago Web Framework',
-			description: `Tigago is a modular, high performance, production level go basic development framework`
-		},
-		'/zh/': {
-			lang: 'zh-CN',
-			title: 'Tigago Web Framework',
-			description: 'Tigago 是一款模块化、高性能、生产级的Go基础开发框架'
-		}
-	}
 }

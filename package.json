@@ -1,7 +1,7 @@
 {
-  "name": "template-vuepress",
+  "name": "tigago-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tigago Web Framework Official Website",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
