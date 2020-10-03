@@ -151,15 +151,23 @@ module.exports = {
 							title: '项目部署',
 							collapsable: true,
 							children: [
-								'/zh/book/documentation/ProjectDeployment/Nginx',
-								'/zh/book/documentation/ProjectDeployment/Docker'
+								{
+									title: "Nginx",
+									path: '/zh/book/documentation/ProjectDeployment/Nginx'
+								},
+								{
+									title: "Docker",
+									path: '/zh/book/documentation/ProjectDeployment/Docker'
+								}
 							]
-						}, {
+						},
+						{
 							title: 'Web服务开发',
 							collapsable: true,
 							children: [
 							]
-						}, {
+						},
+						{
 							title: 'Modules',
 							collapsable: true,
 							children: [
@@ -180,38 +188,43 @@ module.exports = {
 									]
 								},
 							]
-						}, {
+						},
+						{
 							title: '框架用户案例',
 							collapsable: true,
 							children: [
 							]
-						}, {
+						},
+						{
 							title: 'Change Log',
+							path: '/zh/book/documentation/ChangeLog/',
 							collapsable: true,
 							children: [
+								// {
+								// 	title: "版本发布说明",
+								// 	path: '/zh/book/documentation/ChangeLog/V1.0.0.md',
+								// },
 								{
-									title: '版本发布说明',
-									path: '/zh/book/documentation/ChangeLog/README',
-								}, {
-									title: 'V1.0.0',
-									path: '/zh/book/documentation/ChangeLog/V1.0.0',
+									title: "V1.0.0",
+									path: '/zh/book/documentation/ChangeLog/V1.0.0.md',
 								},
 							]
-						}, {
+						},
+						{
 							title: 'FAQ 疑问解答',
-							path: '/zh/book/documentation/FAQ',
+							path: '/zh/book/documentation/FAQ.md',
 						},
 					],
-					'/zh/book/dir-b/': [{
-						title: '入门',
-						path: '/zh/book/dir-b/',
-						collapsable: false,
-						children: [
-							'/zh/book/dir-b/file-1',
-							'/zh/book/dir-b/file-2',
-							'/zh/book/dir-b/file-3'
-						]
-					}]
+					// '/zh/book/dir-b/': [{
+					// 	title: '入门',
+					// 	path: '/zh/book/dir-b/',
+					// 	collapsable: false,
+					// 	children: [
+					// 		'/zh/book/dir-b/file-1',
+					// 		'/zh/book/dir-b/file-2',
+					// 		'/zh/book/dir-b/file-3'
+					// 	]
+					// }]
 				}
 			}
 		}
