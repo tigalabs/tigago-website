@@ -49,7 +49,7 @@ module.exports = {
 				sidebar: 'auto',
 				nav: [
 					{
-						text: 'Home', link: '/Home'
+						text: 'Home', link: '/'
 					},
 					{
 						text: 'Documentation', link: '/documentation/Introduction'
@@ -184,10 +184,10 @@ module.exports = {
 				sidebar: 'auto',
 				nav: [
 					{
-						text: '主页', link: '/zh/Home'
+						text: '主页', link: '/zh/'
 					},
 					{
-						text: '文档', link: '/zh/documentation/Introduction'
+						text: '官方文档', link: '/zh/documentation/Introduction'
 
 					},
 				],
