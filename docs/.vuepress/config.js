@@ -35,50 +35,50 @@ module.exports = {
 				sidebar: 'auto',
 				nav: [
 					{
-						text: 'Home', link: '/book/'
+						text: 'Home', link: '/'
 					},
 					{
-						text: 'Documentation', link: '/book/documentation/Introduction'
+						text: 'Documentation', link: '/documentation/Introduction'
 					},
 
 				],
 				sidebar: {
-					'/book/documentation/': [
+					'/documentation/': [
 						{
 							title: 'Introduction',
-							path: '/book/documentation/Introduction',
+							path: '/documentation/Introduction',
 						}, {
 							title: 'JoinUs',
-							path: '/book/documentation/JoinUs',
+							path: '/documentation/JoinUs',
 						}, {
 							title: 'Preparation',
-							path: '/book/documentation/Preparation',
+							path: '/documentation/Preparation',
 							collapsable: true,
 							children: [
-								'/book/documentation/Preparation/',
-								'/book/documentation/Preparation/EnvironmentInstallation',
+								'/documentation/Preparation/',
+								'/documentation/Preparation/EnvironmentInstallation',
 							]
 						}, {
 							title: 'QuickStart',
-							path: '/book/documentation/QuickStart',
+							path: '/documentation/QuickStart',
 							collapsable: true,
 							children: [
-								'/book/documentation/QuickStart/',
+								'/documentation/QuickStart/',
 							]
 						}, {
 							title: 'FAQ Question Answer',
-							path: '/book/documentation/FAQ',
+							path: '/documentation/FAQ',
 						},
 					],
-					'/book/dir-b/': [
+					'/dir-b/': [
 						{
 							title: 'Quickstart',
-							path: '/book/dir-b/',
+							path: '/dir-b/',
 							collapsable: false,
 							children: [
-								'/book/dir-b/file-1',
-								'/book/dir-b/file-2',
-								'/book/dir-b/file-3']
+								'/dir-b/file-1',
+								'/dir-b/file-2',
+								'/dir-b/file-3']
 						}
 					],
 				}
@@ -108,44 +108,44 @@ module.exports = {
 				sidebar: 'auto',
 				nav: [
 					{
-						text: '主页', link: '/zh/book/'
+						text: '主页', link: '/zh/'
 					},
 					{
-						text: '文档', link: '/zh/book/documentation/Introduction'
+						text: '文档', link: '/zh/documentation/Introduction'
 
 					},
 				],
 				sidebar: {
-					'/zh/book/documentation/': [
+					'/zh/documentation/': [
 						{
 
 							// name:"testno",
 							title: '框架介绍',
-							path: '/zh/book/documentation/Introduction',
+							path: '/zh/documentation/Introduction',
 							sidebarDepth: 0
 						}, {
 							title: '加入我们',
-							path: '/zh/book/documentation/JoinUs',
+							path: '/zh/documentation/JoinUs',
 							sidebarDepth: 0
 						}, {
 							title: '准备工作',
 							collapsable: true,
 							children: [
-								'/zh/book/documentation/Preparation/',
-								'/zh/book/documentation/Preparation/EnvironmentInstallation',
+								'/zh/documentation/Preparation/',
+								'/zh/documentation/Preparation/EnvironmentInstallation',
 							]
 						},
 						{
 							title: '用户必读',
 							collapsable: true,
 							children: [
-								'/zh/book/documentation/UserMustRead/DevelopmentSpecificatio',
+								'/zh/documentation/UserMustRead/DevelopmentSpecificatio',
 							]
 						}, {
 							title: '快速开始',
 							collapsable: true,
 							children: [
-								'/zh/book/documentation/QuickStart/',
+								'/zh/documentation/QuickStart/',
 							]
 						}, {
 							title: '项目部署',
@@ -153,11 +153,11 @@ module.exports = {
 							children: [
 								{
 									title: "Nginx",
-									path: '/zh/book/documentation/ProjectDeployment/Nginx'
+									path: '/zh/documentation/ProjectDeployment/Nginx'
 								},
 								{
 									title: "Docker",
-									path: '/zh/book/documentation/ProjectDeployment/Docker'
+									path: '/zh/documentation/ProjectDeployment/Docker'
 								}
 							]
 						},
@@ -197,32 +197,32 @@ module.exports = {
 						},
 						{
 							title: 'Change Log',
-							path: '/zh/book/documentation/ChangeLog/',
+							path: '/zh/documentation/ChangeLog/',
 							collapsable: true,
 							children: [
 								// {
 								// 	title: "版本发布说明",
-								// 	path: '/zh/book/documentation/ChangeLog/V1.0.0.md',
+								// 	path: '/zh/documentation/ChangeLog/V1.0.0.md',
 								// },
 								{
 									title: "V1.0.0",
-									path: '/zh/book/documentation/ChangeLog/V1.0.0.md',
+									path: '/zh/documentation/ChangeLog/V1.0.0.md',
 								},
 							]
 						},
 						{
 							title: 'FAQ 疑问解答',
-							path: '/zh/book/documentation/FAQ.md',
+							path: '/zh/documentation/FAQ.md',
 						},
 					],
-					// '/zh/book/dir-b/': [{
+					// '/zh/dir-b/': [{
 					// 	title: '入门',
-					// 	path: '/zh/book/dir-b/',
+					// 	path: '/zh/dir-b/',
 					// 	collapsable: false,
 					// 	children: [
-					// 		'/zh/book/dir-b/file-1',
-					// 		'/zh/book/dir-b/file-2',
-					// 		'/zh/book/dir-b/file-3'
+					// 		'/zh/dir-b/file-1',
+					// 		'/zh/dir-b/file-2',
+					// 		'/zh/dir-b/file-3'
 					// 	]
 					// }]
 				}
