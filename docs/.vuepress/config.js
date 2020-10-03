@@ -194,7 +194,6 @@ module.exports = {
 									path: '/zh/book/documentation/ChangeLog/README',
 								}, {
 									title: 'V1.0.0',
-									collapsable: true,
 									path: '/zh/book/documentation/ChangeLog/V1.0.0',
 								},
 							]
