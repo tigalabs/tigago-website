@@ -99,7 +99,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Misitebao, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Misitebao. Built with Docusaurus.`,
     },
   },
   presets: [
