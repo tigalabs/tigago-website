@@ -60,11 +60,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Team Project',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Tigago',
+              to: 'https://github.com/tigateam/tigago',
+            },
+            {
+              label: 'Tigaui',
+              to: 'https://github.com/tigateam/tigaui',
             },
           ],
         },
@@ -94,7 +98,20 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/tigateam/tigago',
+            },
+          ],
+        },
+        {
+          title: 'Links',
+          items: [
+            {
+              label: 'TigaTeam Homepage',
+              href: 'https://github.com/tigateam',
+            },
+            {
+              label: 'Misitebao‘s Blog',
+              to: 'https://blog.misitebao.com',
             },
           ],
         },

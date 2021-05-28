@@ -1,6 +1,6 @@
 {
-  "link.title.Docs": {
-    "message": "文档",
+  "link.title.Team Project": {
+    "message": "团队项目",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
@@ -11,21 +11,21 @@
     "message": "更多",
     "description": "The title of the footer links column with title=More in the footer"
   },
-  "link.item.label.Tutorial": {
-    "message": "教程",
-    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  "link.title.Links": {
+    "message": "友情链接",
+    "description": "Links"
+  },
+  "link.item.label.Tigago": {
+    "message": "Tigago",
+    "description": "Tigago"
+  },
+  "link.item.label.Tigaui": {
+    "message": "Tigaui",
+    "description": "Tigaui"
   },
   "link.item.label.Github Discussions": {
     "message": "Github Discussions",
     "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/docusaurus"
-  },
-  "link.item.label.Discord": {
-    "message": "Discord",
-    "description": "The label of footer link with label=Discord linking to https://discordapp.com/invite/docusaurus"
-  },
-  "link.item.label.Twitter": {
-    "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/docusaurus"
   },
   "link.item.label.Blog": {
     "message": "博客",
@@ -34,6 +34,14 @@
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
+  },
+  "link.item.label.TigaTeam Homepage": {
+    "message": "团队主页",
+    "description": "TigaTeam Homepage"
+  },
+  "link.item.label.Misitebao‘s Blog": {
+    "message": "米司博客",
+    "description": "Misitebao‘s Blog"
   },
   "copyright": {
     "message": "Copyright © 2021 Misitebao. Built with Docusaurus.",
