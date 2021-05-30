@@ -43,7 +43,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'about',
           position: 'right',
           label: 'Doc',
         },
