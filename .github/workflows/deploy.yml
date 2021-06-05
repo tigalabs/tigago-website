@@ -18,7 +18,7 @@ jobs:
       - name: Build Site | 构建
         run: npm install && npm run build
 
-      - name: Deploy to Server
+      - name: Deploy to Server | 部署到服务器
         uses: hengkx/ssh-deploy@v1.0.1
         with:  
             HOST: ${{ secrets.DEPLOY_HOST }}
