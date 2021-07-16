@@ -54,7 +54,7 @@ module.exports = {
           type: 'localeDropdown',
           position: 'right',
           dropdownItemsAfter: [
-            { to: 'https://github.com/tigateam/tigago/issues/11', label: 'Help Translate', }, //Can add custom pages
+            { to: 'https://github.com/tigateam/tigago-website/issues/4', label: 'Help Translate', }, //Can add custom pages
           ],
         },
         {
