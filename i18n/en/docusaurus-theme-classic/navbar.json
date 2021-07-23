@@ -4,8 +4,8 @@
     "description": "The title in the navbar"
   },
   "item.label.Doc": {
-    "message": "Docs ",
-    "description": "Navbar item with label Tutorial"
+    "message": "Doc",
+    "description": "Navbar item with label Doc"
   },
   "item.label.Blog": {
     "message": "Blog",

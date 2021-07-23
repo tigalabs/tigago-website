@@ -1,7 +1,7 @@
 {
   "link.title.Team Project": {
     "message": "Team Project",
-    "description": "The title of the footer links column with title=Docs in the footer"
+    "description": "The title of the footer links column with title=Team Project in the footer"
   },
   "link.title.Community": {
     "message": "Community",
@@ -13,19 +13,19 @@
   },
   "link.title.Links": {
     "message": "Links",
-    "description": "Links"
+    "description": "The title of the footer links column with title=Links in the footer"
   },
   "link.item.label.Tigago": {
     "message": "Tigago",
-    "description": "Tigago"
+    "description": "The label of footer link with label=Tigago linking to https://github.com/tigateam/tigago"
   },
   "link.item.label.Tigaui": {
     "message": "Tigaui",
-    "description": "Tigaui"
+    "description": "The label of footer link with label=Tigaui linking to https://github.com/tigateam/tigaui"
   },
   "link.item.label.Github Discussions": {
     "message": "Github Discussions",
-    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/docusaurus"
+    "description": "The label of footer link with label=Github Discussions linking to https://github.com/tigateam/tigago/discussions"
   },
   "link.item.label.Blog": {
     "message": "Blog",
@@ -33,18 +33,30 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/tigateam/tigago"
   },
   "link.item.label.TigaTeam Homepage": {
     "message": "TigaTeam Homepage",
-    "description": "TigaTeam Homepage"
+    "description": "The label of footer link with label=TigaTeam Homepage linking to https://github.com/tigateam"
   },
   "link.item.label.Misitebao‘s Blog": {
     "message": "Misitebao‘s Blog",
-    "description": "Misitebao‘s Blog"
+    "description": "The label of footer link with label=Misitebao‘s Blog linking to https://blog.misitebao.com"
   },
   "copyright": {
     "message": "Copyright © 2021 Misitebao. Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Tiga CLI": {
+    "message": "Tiga CLI",
+    "description": "The label of footer link with label=Tiga CLI linking to https://github.com/tigateam/tiga-cli"
+  },
+  "link.item.label.Slack": {
+    "message": "Slack",
+    "description": "The label of footer link with label=Slack linking to https://tigateams.slack.com/archives/C020D7YSJBZ"
+  },
+  "link.item.label.tigago-demo": {
+    "message": "tigago-demo",
+    "description": "The label of footer link with label=tigago-demo linking to https://github.com/tigateam/tigago-demo"
   }
 }

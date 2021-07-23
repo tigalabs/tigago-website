@@ -1,6 +1,6 @@
 ---
-title: About
+title: I18N
 sidebar_position: 1
 ---
 
-# About
+# I18N
