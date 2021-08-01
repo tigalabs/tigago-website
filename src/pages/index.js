@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
-import Translate from '@docusaurus/Translate'; // i18n component
+import Translate, { translate } from '@docusaurus/Translate'; // i18n component
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -14,19 +14,12 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        {/* 注释网站默认 */}
-        {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
-        <p className="hero__subtitle">
-          <Translate
-            id="homepage.Tagline">
-          </Translate></p>
+        <p className="hero__subtitle">{translate({ id: "homepage.Tagline" })}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            <Translate
-              id="homepage.ButtonText">
-            </Translate>
+            to="/docs/about">
+            {translate({ id: "homepage.ButtonText" })}
           </Link>
         </div>
       </div>
@@ -39,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="A modular framework based on Go language">
+      description={translate({ id: "homepage.Tagline" })}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

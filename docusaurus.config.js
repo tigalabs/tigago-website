@@ -1,3 +1,6 @@
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Tigago',
@@ -11,14 +14,14 @@ module.exports = {
   projectName: 'tigago-website', // Usually your repo name.
   // i18n
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh-hans'],
+    defaultLocale: 'zh-Hans',
+    locales: ['en', 'zh-Hans'],
     localeConfigs: {
       en: {
         label: 'English',
         direction: 'ltr',
       },
-      "zh-hans": {
+      "zh-Hans": {
         label: '简体中文',
         direction: 'ltr',
       },
@@ -26,7 +29,6 @@ module.exports = {
   },
   themeConfig: {
     navbar: {
-      // style: 'dark',
       title: 'Tigago',
       logo: {
         alt: 'Tigago Site Logo',
@@ -48,7 +50,13 @@ module.exports = {
           label: 'Doc',
         },
         { to: '/blog', label: 'Blog', position: 'right' },
-        { type: 'localeDropdown', position: 'right', },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+          dropdownItemsAfter: [
+            { to: 'https://github.com/tigateam/tigago/issues/11', label: 'Help Translate', }, //Can add custom pages
+          ],
+        },
         {
           href: 'https://github.com/tigateam/tigago',
           label: 'GitHub',
@@ -62,6 +70,10 @@ module.exports = {
         {
           title: 'Team Project',
           items: [
+            {
+              label: 'Tiga CLI',
+              to: 'https://github.com/tigateam/tiga-cli',
+            },
             {
               label: 'Tigago',
               to: 'https://github.com/tigateam/tigago',
@@ -79,6 +91,10 @@ module.exports = {
               label: 'Github Discussions',
               href: 'https://github.com/tigateam/tigago/discussions',
             },
+            {
+              label: 'Slack',
+              href: 'https://tigateams.slack.com/archives/C020D7YSJBZ',
+            },
             // {
             //   label: 'Discord',
             //   href: 'https://discordapp.com/invite/docusaurus',
@@ -92,13 +108,13 @@ module.exports = {
         {
           title: 'More',
           items: [
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/tigateam/tigago',
+              label: 'tigago-demo',
+              href: 'https://github.com/tigateam/tigago-demo',
             },
           ],
         },
@@ -117,6 +133,10 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Misitebao. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
     },
   },
   presets: [

@@ -2,47 +2,23 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
-import Translate from '@docusaurus/Translate'; // i18n component
+import Translate, { translate } from '@docusaurus/Translate'; // i18n component
 
 const FeatureList = [
   {
-    title: (
-      <Translate
-        id="homepage.Features.Title1">
-      </Translate>
-    ),
+    title: translate({ id: "homepage.Features.Title1" }),
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <Translate
-        id="homepage.Features.Description1">
-      </Translate>
-    ),
+    description: translate({ id: "homepage.Features.Description1" }),
   },
   {
-    title: (
-      <Translate
-        id="homepage.Features.Title2">
-      </Translate>
-    ),
+    title: translate({ id: "homepage.Features.Title2" }),
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <Translate
-        id="homepage.Features.Description2">
-      </Translate>
-    ),
+    description: translate({ id: "homepage.Features.Description2" }),
   },
   {
-    title: (
-      <Translate
-        id="homepage.Features.Title3">
-      </Translate>
-    ),
+    title: translate({ id: "homepage.Features.Title3" }),
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <Translate
-        id="homepage.Features.Description3">
-      </Translate>
-    ),
+    description: translate({ id: "homepage.Features.Description3" }),
   },
 ];
 
