@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Tigago',
+  title: 'Tigago Framework',
   tagline: 'A modular framework based on Go language',
   url: 'https://tigago.tigateam.org',
   baseUrl: '/',

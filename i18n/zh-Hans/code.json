@@ -160,35 +160,27 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "homepage.Tagline": {
-    "message": "一个基于Go语言的模块化框架",
-    "description": "The tagline"
+    "message": "一个基于Go语言的模块化框架"
   },
   "homepage.ButtonText": {
-    "message": "开始使用🚀",
-    "description": "Get Started"
+    "message": "开始使用🚀"
   },
   "homepage.Features.Title1": {
-    "message": "原生实现",
-    "description": "Native implementation"
+    "message": "原生实现"
   },
   "homepage.Features.Title2": {
-    "message": "用户友好",
-    "description": "Friendly User"
+    "message": "用户友好"
   },
   "homepage.Features.Title3": {
-    "message": "快捷方便",
-    "description": "Fast and Convenient"
+    "message": "快捷方便"
   },
   "homepage.Features.Description1": {
-    "message": "使用Go标准包开发",
-    "description": "Feature Rich Description"
+    "message": "使用Go标准包开发"
   },
   "homepage.Features.Description2": {
-    "message": "参考大多数常用的API使用方式进行设计，方便使用者理解。",
-    "description": "Familiarity Description"
+    "message": "参考大多数常用的API使用方式进行设计，方便使用者理解。"
   },
   "homepage.Features.Description3": {
-    "message": "使用TIGA CLI快速生成，构建和打包项目。",
-    "description": "Fast Description"
+    "message": "使用TIGA CLI快速生成，构建和打包项目。"
   }
 }
