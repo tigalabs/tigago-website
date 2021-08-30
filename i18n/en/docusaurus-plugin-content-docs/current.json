@@ -18,5 +18,21 @@
   "sidebar.tutorialSidebar.category.Crypto": {
     "message": "Crypto",
     "description": "The label for category Crypto in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Internet": {
+    "message": "Internet",
+    "description": "The label for category Internet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Design - Concept": {
+    "message": "Design - Concept",
+    "description": "The label for category Design - Concept in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Exchange - Learning": {
+    "message": "Exchange - Learning",
+    "description": "The label for category Exchange - Learning in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Official - Tutorial": {
+    "message": "Official - Tutorial",
+    "description": "The label for category Official - Tutorial in sidebar tutorialSidebar"
   }
 }

@@ -160,35 +160,27 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "homepage.Tagline": {
-    "message": "A modular framework based on Go language",
-    "description": "The tagline"
+    "message": "A modular framework based on Go language"
   },
   "homepage.ButtonText": {
-    "message": "Get Started🚀",
-    "description": "Get Started"
+    "message": "Get Started🚀"
   },
   "homepage.Features.Title1": {
-    "message": "Native implementation",
-    "description": "Native implementation"
+    "message": "Native implementation"
   },
   "homepage.Features.Title2": {
-    "message": "Friendly User",
-    "description": "Friendly User"
+    "message": "Friendly User"
   },
   "homepage.Features.Title3": {
-    "message": "Fast and Convenient",
-    "description": "Fast and Convenient"
+    "message": "Fast and Convenient"
   },
   "homepage.Features.Description1": {
-    "message": "Use Go standard package development",
-    "description": "Feature Rich Description"
+    "message": "Use Go standard package development"
   },
   "homepage.Features.Description2": {
-    "message": "Design with reference to most commonly used API usage methods, which is convenient for users to understand.",
-    "description": "Familiarity Description"
+    "message": "Design with reference to most commonly used API usage methods, which is convenient for users to understand."
   },
   "homepage.Features.Description3": {
-    "message": "Use TIGA CLI to quickly generate, build and package projects.",
-    "description": "Fast Description"
+    "message": "Use TIGA CLI to quickly generate, build and package projects."
   }
 }

@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'tigago-website', // Usually your repo name.
   // i18n
   i18n: {
-    defaultLocale: 'zh-Hans',
+    defaultLocale: 'en',
     locales: ['en', 'zh-Hans'],
     localeConfigs: {
       en: {
@@ -47,14 +47,19 @@ module.exports = {
           type: 'doc',
           docId: 'about',
           position: 'right',
-          label: 'Doc',
+          label: 'Docs',
+        },
+        {
+          to: 'https://github.com/tigateam/tigago/issues?q=is%3Aopen+is%3Aissue+label%3A%22need+help+%7C+%E9%9C%80%E8%A6%81%E5%B8%AE%E5%8A%A9%22',
+          label: 'NeedHelp',
+          position: 'right',
         },
         { to: '/blog', label: 'Blog', position: 'right' },
         {
           type: 'localeDropdown',
           position: 'right',
           dropdownItemsAfter: [
-            { to: 'https://github.com/tigateam/tigago-website/issues/4', label: 'Help Translate', }, //Can add custom pages
+            { to: 'https://github.com/tigateam/tigago-website/issues/4', label: 'Help Translate 💖', }, //Can add custom pages
           ],
         },
         {

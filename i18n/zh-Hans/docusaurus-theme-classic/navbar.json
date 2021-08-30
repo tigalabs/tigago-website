@@ -3,9 +3,9 @@
     "message": "Tigago Framework",
     "description": "The title in the navbar"
   },
-  "item.label.Doc": {
+  "item.label.Docs": {
     "message": "文档",
-    "description": "Navbar item with label Doc"
+    "description": "Navbar item with label Docs"
   },
   "item.label.Blog": {
     "message": "博客",
@@ -14,5 +14,9 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.NeedHelp": {
+    "message": "需要帮助❤",
+    "description": "Navbar item with label NeedHelp"
   }
 }

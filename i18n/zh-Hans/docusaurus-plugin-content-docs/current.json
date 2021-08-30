@@ -18,5 +18,21 @@
   "sidebar.tutorialSidebar.category.Crypto": {
     "message": "加密解密",
     "description": "The label for category Crypto in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Internet": {
+    "message": "网络相关",
+    "description": "The label for category Internet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Design - Concept": {
+    "message": "设计理念",
+    "description": "The label for category Design - Concept in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Official - Tutorial": {
+    "message": "官方教程",
+    "description": "The label for category Official - Tutorial in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Exchange - Learning": {
+    "message": "交流学习",
+    "description": "The label for category Exchange - Learning in sidebar tutorialSidebar"
   }
 }
