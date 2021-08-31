@@ -34,5 +34,9 @@
   "sidebar.tutorialSidebar.category.Exchange - Learning": {
     "message": "交流学习",
     "description": "The label for category Exchange - Learning in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.FAQ": {
+    "message": "常见问题",
+    "description": "The label for category FAQ in sidebar tutorialSidebar"
   }
 }
