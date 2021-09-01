@@ -28,6 +28,13 @@ module.exports = {
     },
   },
   themeConfig: {
+    announcementBar: {
+      id: 'support_us',
+      content: 'If you like Tigago, <a href="https://github.com/tigateam/tigago" target="_blank">give us a star on GitHub</a>!⭐️',
+      backgroundColor: 'rgb(249, 122, 122)',
+      textColor: '#ffffff',
+      isCloseable: true,
+    },
     navbar: {
       title: 'Tigago',
       logo: {
