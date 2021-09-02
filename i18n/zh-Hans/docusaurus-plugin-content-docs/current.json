@@ -38,5 +38,9 @@
   "sidebar.tutorialSidebar.category.FAQ": {
     "message": "常见问题",
     "description": "The label for category FAQ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Join - Us": {
+    "message": "加入我们",
+    "description": "The label for category Join - Us in sidebar tutorialSidebar"
   }
 }

@@ -1,6 +1,6 @@
 ---
-title: Join Us
+title: Promotion
 sidebar_position: 2
 ---
 
-# Join Us
+# Promotion
