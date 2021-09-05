@@ -39,7 +39,7 @@ module.exports = {
       title: 'Tigago',
       logo: {
         alt: 'Tigago Site Logo',
-        src: 'img/logo.jpg',
+        src: 'img/logo.png',
       },
       items: [
         {
