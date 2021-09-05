@@ -61,6 +61,25 @@ module.exports = {
           label: 'NeedHelp',
           position: 'right',
         },
+        {
+          type: 'dropdown',
+          label: 'Community',
+          position: 'right',
+          items: [
+            {
+              label: 'Github Discussions',
+              href: 'https://github.com/tigateam/tigago/discussions',
+            },
+            {
+              label: 'Slack',
+              href: 'https://tigateams.slack.com/archives/C020D7YSJBZ',
+            },
+            {
+              label: 'Gitter',
+              href: 'https://gitter.im/tigateam/tigago',
+            },
+          ],
+        },
         { to: '/blog', label: 'Blog', position: 'right' },
         {
           type: 'localeDropdown',

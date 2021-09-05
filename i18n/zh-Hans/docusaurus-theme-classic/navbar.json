@@ -18,5 +18,21 @@
   "item.label.NeedHelp": {
     "message": "需要帮助❤",
     "description": "Navbar item with label NeedHelp"
+  },
+  "item.label.Community": {
+    "message": "社区交流",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Github Discussions": {
+    "message": "Github Discussions",
+    "description": "Navbar item with label Github Discussions"
+  },
+  "item.label.Slack": {
+    "message": "Slack",
+    "description": "Navbar item with label Slack"
+  },
+  "item.label.Gitter": {
+    "message": "Gitter",
+    "description": "Navbar item with label Gitter"
   }
 }
