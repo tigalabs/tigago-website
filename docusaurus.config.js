@@ -107,6 +107,10 @@ module.exports = {
               label: 'Slack',
               href: 'https://tigateams.slack.com/archives/C020D7YSJBZ',
             },
+            {
+              label: 'Gitter',
+              href: 'https://gitter.im/tigateam/tigago',
+            },
             // {
             //   label: 'Discord',
             //   href: 'https://discordapp.com/invite/docusaurus',
