@@ -1,5 +1,5 @@
 ---
-title: I18N
+title: I18N⭐
 sidebar_position: 1
 ---
 
