@@ -57,8 +57,8 @@ module.exports = {
           label: 'Docs',
         },
         {
-          to: 'https://github.com/tigateam/tigago/issues?q=is%3Aopen+is%3Aissue+label%3A%22need+help+%7C+%E9%9C%80%E8%A6%81%E5%B8%AE%E5%8A%A9%22',
-          label: 'NeedHelp',
+          to: 'https://github.com/tigateam/tigago/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted+%7C+%E9%9C%80%E8%A6%81%E5%B8%AE%E5%8A%A9%22',
+          label: 'HelpWanted',
           position: 'right',
         },
         {

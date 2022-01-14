@@ -15,8 +15,8 @@
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
   },
-  "item.label.NeedHelp": {
-    "message": "NeedHelp❤",
-    "description": "Navbar item with label NeedHelp"
+  "item.label.HelpWanted": {
+    "message": "HelpWanted❤",
+    "description": "Navbar item with label HelpWanted"
   }
 }

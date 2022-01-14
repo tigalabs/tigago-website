@@ -15,9 +15,9 @@
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
   },
-  "item.label.NeedHelp": {
+  "item.label.HelpWanted": {
     "message": "需要帮助❤",
-    "description": "Navbar item with label NeedHelp"
+    "description": "Navbar item with label HelpWanted"
   },
   "item.label.Community": {
     "message": "社区交流",
